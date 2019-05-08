@@ -1,0 +1,31 @@
+{
+  "name": "habitation-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drewtcraft/habitation-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drewtcraft/habitation-service/issues"
+  },
+  "homepage": "https://github.com/drewtcraft/habitation-service#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "ezuuid": "0.0.1",
+    "helmet": "^3.18.0",
+    "mongoose": "^5.5.6",
+    "morgan": "^1.9.1",
+    "node-cron": "^2.0.3",
+    "socket.io": "^2.2.0"
+  }
+}
